@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/impress-demo.css">
+</head>
+<body class="impress-not-supported" data-perspective="500">
+    <div class="fallback-message">
+        <p>你的浏览器<b>不支持</b> impress.js, 所以当前展示的是简化版。</p>
+        <p>为了获得更好的体验，请使用最新的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器。</p>
+    </div>
+    <div id="impress">
+        <div class="step pro" data-x="-1000" data-y="-1500"  id="bored">
+            <div class="phone"></div>
+            <div class="jieshao">
+                <p>姓名：王亚康</p>
+                <p>职业：前端工程师</p>
+                <p>学历：本科</p>
+                <!--<p>爱好：</p>-->
+            </div>
+            <i class="blog"><a href="http://www.cnblogs.com/wykbk/">我的博客 </a></i>
+        </div>
+        <div class="step" data-x="500" data-y="0" data-rotate="40" id="title" data-scale="2">
+            <span class="thoughts">My Skill</span>
+            <h1 class="myskill">我的技能</h1>
+        </div>
+        <div class="step present" id="ing" data-x="-400" data-y="2200" data-scale="4" data-rotate="90" data-z="-300">
+            <div class="left">
+                <p>javascript</p>
+                <p>h5\css3</p>
+                <p>angular.js</p>
+                <p>vue.js</p>
+                <p>jquery</p>
+            </div>
+            <div class="right">
+                <p>bootstrap</p>
+                <p>移动端、响应式</p>
+                <p>node.js</p>
+                <p>php</p>
+            </div>
+
+        </div>
+        <div class="step" data-rotate="360" data-x="1500" data-y="-1500">
+            <div class="trans">
+                <p>My Works</p>
+                <p class="font">我的作品</p>
+                <b><span>web</span> <span>app</span> <span>游戏</span></b>
+            </div>
+            <p class="gith">
+                <i>by</i> <a href="">my github</a>
+            </p>
+        </div>
+        <div class="step border" data-scale="2" data-y="0" data-x="2000" data-rotate="20">
+            <div class="projectPhone"><span class="font-blog"></span></div>
+            <div class="product">
+                <p>NO.1：<a href="">博客系统</a></p>
+                <p>mvc架构、bootstrap框架、php后台语言 </p>
+                <p><span class="font-git "></span><a href="">github</a></p>
+            </div>
+        </div>
+        <div class="step border" data-x="1500" data-y="-500" data-z="-1000">
+            <div class="projectPhone"><span class="font-list"></span></div>
+            <div class="product">
+                <p>NO.2：<a href="">To Do List</a></p>
+                <p>angularjs </p>
+                <p><span class="font-git "></span><a href="">github</a></p>
+            </div>
+        </div>
+        <div class="step border" data-x="3000" data-y="0" data-z="-2000" data-rotate="60">
+            <div class="projectPhone"><span class="font-app"></span></div>
+            <div class="product">
+                <p>NO.3：<a href="">Work App</a></p>
+                <p>mvvm框架、angular.js、node.js、H5\Css3</p>
+                <p><span class="font-git "></span><a href="">github</a></p>
+            </div>
+        </div>
+        <div class="step border" data-scale="2" data-y="0" data-x="2000" data-rotate="10" data-z="-4000">
+            <div class="projectPhone"><span class="font-game"></span></div>
+            <div class="product">
+                <p>NO.3：<a href="">跑酷</a></p>
+                <p>canvas、碰撞检测</p>
+                <p><span class="font-git "></span><a href="">github</a></p>
+            </div>
+        </div>
+        <div class="step" data-x="4000" data-y="-1500" data-scale="2" data-z="-1000">
+            <div class="trans">
+                <p>Contact Way</p>
+                <p class="font">联系方式</p>
+            </div>
+            <p class="gith">
+                <i>tel:18435154265</i> <br>
+                <i>email:wyk941222@163.com</i>
+            </p>
+        </div>
+        <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+        </div>
+    </div>
+    <div class="hint">
+        <p>使用空格键或箭头键导航</p>
+    </div>
+<script>
+    if ("ontouchstart" in document.documentElement) {
+        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+    }
+</script>
+<script src="src/js/impress.js"></script>
+<script>
+    impress().init()
+</script>
+</body>
+</html>

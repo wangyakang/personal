@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 300186 */
+    src: url('http://at.alicdn.com/t/font_rjfhw1wa3090ms4i.eot');
+    src: url('http://at.alicdn.com/t/font_rjfhw1wa3090ms4i.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_rjfhw1wa3090ms4i.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_rjfhw1wa3090ms4i.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_rjfhw1wa3090ms4i.svg#iconfont') format('svg');
+}
+.pro{
+    display: block;
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 50px;
+}
+.phone{
+    width: 295px;height: 412px;
+    position: absolute;
+    left: 30px;top: 0;bottom: 0;margin: auto 0;
+    background-size:cover;
+    background-image: url("../img/wyk1.jpg");
+    background-repeat: no-repeat;
+}
+.jieshao{
+    width: 450px;height: 300px;
+    line-height:60px;
+    padding: 30px;
+    position: absolute;
+    right: 20px;top: 0;bottom: 0;margin: auto 0;
+}
+.blog{
+    position: absolute;bottom:100px;right:20px;
+}
+.left{
+    position: absolute;
+    left:-80px;top: -90px;
+}
+.right{
+   position: absolute;
+    right: -200px;bottom: 20px;
+}
+@keyframes  tran3d{
+    0% {
+        transform:rotateY(-15deg);
+    }
+    100% {
+        transform:rotateY(15deg);
+    }
+}
+.trans{
+    text-align: center;
+    animation: tran3d 2s infinite alternate ease-in-out;
+    transform:rotateY(0deg);
+    transition: all 2s ease-in-out;
+}
+.font{
+    translateZ(100px);
+    font-size: 120px;
+}
+.trans span{
+    padding: 20px;
+}
+.gith{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+h1.myskill{
+    transition: translate 1s;
+    translateX(20px);
+    transition-delay:0.3s;
+}
+
+/*项目*/
+.border{
+    width: 900px;height: 700px;
+    text-align: center;
+}
+.projectPhone{
+    margin: 0 auto;
+    width: 300px;height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+.product{
+    font-size: 40px;
+}
+.product p{
+    margin-top: 50px;
+}
+.projectPhone{
+    text-align: center;
+    animation: tran3d 2s infinite alternate ease-in-out;
+    transform:rotateY(0deg);
+    transition: all 2s ease-in-out;
+}
+
+/*iconfont*/
+.font-git{
+    font-family: "iconfont";
+    padding-right: 20px;
+}
+.font-git:before{
+    content: "\eac0";
+}
+.font-blog,.font-list,.font-app,.font-game{
+    font-size: 250px;
+    font-family: "iconfont";
+}
+.font-blog:before{
+    content: "\e60d";
+}
+.font-list:before{
+    content: "\e61d";
+}
+.font-app:before{
+    content: "\e65a";
+}
+.font-game:before{
+    content: "\e6d9";
+}
