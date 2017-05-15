@@ -269,12 +269,6 @@ a:focus {
 
 #title h1 {
     font-size: 128px;
-
-    -webkit-transform: translateZ(50px);
-    -moz-transform:    translateZ(50px);
-    -ms-transform:     translateZ(50px);
-    -o-transform:      translateZ(50px);
-    transform:         translateZ(50px);
 }
 
 #title .footnote {
@@ -347,34 +341,34 @@ a:focus {
     ... 'rotating' to rotate a quarter of a second later ...
 */
 #ing.present .rotating {
-    -webkit-transform: rotate(-10deg);
-    -moz-transform:    rotate(-10deg);
-    -ms-transform:     rotate(-10deg);
-    -o-transform:      rotate(-10deg);
-    transform:         rotate(-10deg);
-
-    -webkit-transition-delay: 0.25s;
-    -moz-transition-delay:    0.25s;
-    -ms-transition-delay:     0.25s;
-    -o-transition-delay:      0.25s;
-    transition-delay:         0.25s;
-}
-
-/*
-    ... and 'scaling' to scale down after another quarter of a second.
-*/
-#ing.present .scaling {
-    -webkit-transform: scale(0.7);
-    -moz-transform:    scale(0.7);
-    -ms-transform:     scale(0.7);
-    -o-transform:      scale(0.7);
-    transform:         scale(0.7);
+    -webkit-transform: rotate(10deg);
+    -moz-transform:    rotate(10deg);
+    -ms-transform:     rotate(10deg);
+    -o-transform:      rotate(10deg);
+    transform:         rotate(10deg);
 
     -webkit-transition-delay: 0.5s;
     -moz-transition-delay:    0.5s;
     -ms-transition-delay:     0.5s;
     -o-transition-delay:      0.5s;
     transition-delay:         0.5s;
+}
+
+/*
+    ... and 'scaling' to scale down after another quarter of a second.
+*/
+#ing.present .scaling {
+    -webkit-transform: scale(2);
+    -moz-transform:    scale(2);
+    -ms-transform:     scale(2);
+    -o-transform:      scale(2);
+    transform:         scale(2);
+
+    -webkit-transition-delay: 0.25s;
+    -moz-transition-delay:    0.25s;
+    -ms-transition-delay:     0.25s;
+    -o-transition-delay:      0.25s;
+    transition-delay:         0.25s;
 }
 /*
     The 'imagination' step is again some boring font-sizing.

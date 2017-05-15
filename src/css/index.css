@@ -67,9 +67,8 @@
     font-size: 30px;
 }
 h1.myskill{
-    transition: translate 1s;
-    translateX(20px);
-    transition-delay:0.3s;
+    transition:  1s;
+    padding-top: 10px;
 }
 
 /*项目*/
